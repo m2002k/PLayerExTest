@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="playerex"
+version="1.20.1-1.0.0"
+displayName="Player Ex"
+displayURL=""
+logoFile="logo.png"
+credits="CleverNucleus: Code and major texturer; sky_bai: simplified Chinese translation (thanks!)"
+authors="CleverNucleus, LukeGrahamLandry#6888"
+description="A clever implementation of a novel attributes API for players and devs."
+
+[[dependencies.playerex]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.playerex]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
